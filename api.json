@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "precio":500,
+        "title": "Cafe",
+        "thumbNailURL":""
+
+    },
+    {
+        "id":2,
+        "precio":300,
+        "title": "Pizza",
+        "thumbNailURL":""
+    },
+    {
+        "id":3,
+        "precio":100,
+        "title": "Agua",
+        "thumbNailURL":""
+    },
+    {
+        "id":4,
+        "precio":100,
+        "title": "Sandia",
+        "thumbNailURL":""
+    },
+    {
+        "id":5,
+        "precio":1000,
+        "title": "Ensalada",
+        "thumbNailURL":""
+    },
+    {
+        "id":6,
+        "precio":700,
+        "title": "Jugo",
+        "thumbNailURL":""
+    }
+]

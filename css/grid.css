@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.CONTAINER{
+    width: 100%;
+    max-width: 1100px;
+    background: rgb(73, 73, 73);
+    padding: 10px 0px;
+    margin: auto;
+    display: grid;
+    grid-gap:0.5em;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: "HEADER   HEADER    HEADER    HEADER"
+                         "SLADER   SLADER    SLADER    BANER"
+                         "SLADER   SLADER     SLADER     BANER"
+                         "SECTION1  SECTION2  SECTION3   BANER"
+                         "SECTION1  SECTION2  SECTION3   BANER"
+                         "FOOTER    FOOTER    FOOTER     FOOTER";
+}
+
+.CONTAINER .HEADER{
+    padding: 5px 0px;
+    background: rgb(35, 67, 68);
+    /*grid-column: 1/5;*/
+    grid-area: HEADER;
+}
+.cont_header{
+    background: rgb(39, 117, 117);
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.cont_header .logo{
+    width: 100px;
+    /*height: 100px;*/  
+    /*background: darkgoldenrod;*/
+}
+.cont_header .btn_res{
+    width: 50px;
+    height: 50px;
+    background: firebrick;
+    display: none;
+}
+
+.cont_header .menu{
+    width:400px;
+    /*height: 100px;*/
+    /*background: darkgoldenrod;*/  
+}
+.cont_header .menu nav{
+    padding: 5px;
+    /*background: chartreuse;*/
+}
+.cont_header .menu nav ul{
+    padding: 5px;
+    /*background: cornflowerblue;*/
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cont_header .menu nav ul li{
+    /*background: crimson;*/
+    padding: 8px 20px;
+}
+.cont_header .menu nav ul li a{
+    text-decoration: none;
+}
+
+
+
+/*********SLADER*******************/
+
+.CONTAINER .SLADER{
+    padding: 5px 0px;
+    background: rgb(35, 67, 68);
+    /*grid-column: 1/4;*/
+    grid-area: SLADER;
+}
+.cont_slader{
+    background: darkcyan;
+    width: 100%;
+    height: 350px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.CONTAINER .BANER{
+    padding: 5px;
+    background: rgb(35, 67, 68);
+    /*grid-column: 4/5;
+    grid-row: 2/5;*/
+    grid-area: BANER;
+}
+.cont_baner{
+    background: darkcyan;
+    width: 100%;
+    height: 100%;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.CONTAINER .SECTION1{
+    padding: 5px 0px;
+    background: rgb(35, 67, 68);
+    /*grid-column: 1/2;
+    grid-template-rows:3/4;*/
+    grid-area: SECTION1;
+}
+.cont_section1{
+    background: darkcyan;
+    width: 100%;
+    height: 200px;
+    padding: 10px 20px;
+}
+
+
+
+
+
+.CONTAINER .SECTION2{
+    padding: 5px 0px;
+    background: rgb(35, 67, 68);
+    /*grid-column: 2/4;
+    grid-template-rows:3/4;*/
+    grid-area: SECTION2;
+}
+.cont_section2{
+    background: darkcyan;
+    width: 100%;
+    height: 200px;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+.CONTAINER .SECTION3{
+    padding: 5px 0px;
+    background: rgb(35, 67, 68);
+    /*grid-column: 1/4;
+    grid-template-rows:3/4;*/
+    grid-area: SECTION3;
+}
+.cont_section3{
+    background: darkcyan;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+.CONTAINER .FOOTER{
+    padding: 5px 0px;
+    background: rgb(35, 67, 68);
+    /*grid-column: 1/5;*/
+    grid-area: FOOTER;
+}
+.cont_Footer{
+    background: darkcyan;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+
+
+
+@media (min-width:320px) and (max-width:423px){
+    
+    .CONTAINER{
+        width: 100%;
+        max-width: 1100px;
+        background: rgb(73, 73, 73);
+        padding: 10px 0px;
+        margin: auto;
+        display: grid;
+        grid-gap:0.5em;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(6, auto);
+        grid-template-areas: "HEADER   HEADER    HEADER    HEADER"
+                            "SLADER    SLADER    SLADER    SLADER"
+                            "BANER     BANER     BANER     BANER"
+                            "SECTION1  SECTION1  SECTION1   SECTION1"
+                            "SECTION2  SECTION2  SECTION2   SECTION2"
+                            "SECTION3  SECTION3  SECTION3   SECTION3"
+                            "FOOTER    FOOTER    FOOTER     FOOTER";
+    }
+
+}
