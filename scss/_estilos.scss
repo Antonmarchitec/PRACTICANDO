@@ -14,3 +14,29 @@
 .miId{
     background: hotpink;
 }
+
+
+.content{
+    width: 500px;
+    height: 300px;
+    background: greenyellow;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .padre{
+        width: 400px;
+        height: 200px;
+        background: firebrick;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .hijo{
+            width: 200px;
+            height: 100px;
+            background: forestgreen;
+        }
+    }
+}
+
+

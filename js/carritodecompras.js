@@ -183,7 +183,7 @@ const pintarProductos = (data) =>{
          template_card.querySelector('img').setAttribute('alt', element.title)
          template_card.querySelector('h5').textContent = element.title
          template_card.querySelector('p').textContent = element.precio
-         template_card.querySelector('button').dataset.id = element.id
+         template_card.querySelector('.btn-dark').dataset.id = element.id   
 
          let clone = template_card.cloneNode(true)
          fragment.appendChild(clone)
@@ -195,27 +195,40 @@ const pintarProductos = (data) =>{
 
 //DELEGACION DE EVENTOS
 document.addEventListener('click', (e) =>{
-    console.log(e.target.classList.contains('btn-dark'))
+    //console.log(e.target.classList.contains('btn-dark'))
     if(e.target.classList.contains('btn-dark')){
+        //setCarrito(e.target.parentElement)
+        //console.log(e.target.parentElement)
         setCarrito(e.target.parentElement)
     }
 })
 
 
-const setCarrito = ( objeto => {
+const setCarrito = objeto =>{
     //console.log(objeto)
+    const objetoCar = {
+        title: objeto.querySelector("h5").textContent,
+        precio: objeto.querySelector("p").textContent,
+        id: objeto.querySelector(".btn-dark").dataset.id,
+        cantidad: 1
+    }
+    console.log(objetoCar)
+}
+
+
+
+
+
+
+/*
+const setCarrito = (objeto => {
+    console.log(objeto)
     const producto = {
         title: objeto.querySelector('h5').textContent,
         precio: objeto.querySelector('p').textContent,
         id: objeto.querySelector('button').dataset.id,
         cantidad:1
     }
-    //console.log(producto)
-    if(carrito.hasOwnProperty(producto.id)){
-        producto.cantidad = carrito[producto.id].cantidad + 1
-    }    
-
-    carrito[producto.id] = {...producto}
-    console.log(carrito)
+    
 })
-
+*/
