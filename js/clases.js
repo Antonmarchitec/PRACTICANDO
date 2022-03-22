@@ -172,3 +172,30 @@ const Moto1 = new Motocicletas("amarillo", "sepa", "buyrt", "godyear")
 console.log(Moto1.mostrarMotos(100, 12))
 
 
+
+
+
+/////////////////EJEMPLO 9
+
+class Persona{
+    constructor(nombre, edad, sexo, test){
+        this.nombre = nombre,
+        this.edad = edad,
+        this.sexo = sexo,
+        this.test = test
+    }
+    caminando(){
+        return("estoy caminando")
+    }
+
+    golpeando(puñete, patada){
+        this.res = puñete + patada
+        console.log(this.res)
+    }
+}
+
+
+
+const Antonio = new Persona("Antonio", 35, "Hombre", "Trigueño")
+console.log(Antonio.caminando())
+Antonio.golpeando(100, 500)
