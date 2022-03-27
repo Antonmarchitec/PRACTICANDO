@@ -25,3 +25,10 @@ promesa.catch((mensaje)=>{
     //alert("mensaje")
     alert(mensaje)
 })
+
+
+
+
+
+
+

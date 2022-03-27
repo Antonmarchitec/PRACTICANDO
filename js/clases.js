@@ -199,3 +199,7 @@ class Persona{
 const Antonio = new Persona("Antonio", 35, "Hombre", "Trigueño")
 console.log(Antonio.caminando())
 Antonio.golpeando(100, 500)
+
+
+
+

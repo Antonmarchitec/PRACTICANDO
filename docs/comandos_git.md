@@ -4,21 +4,11 @@ PARA INICIALIZAR GIT Y SUBIR REPOSITORIOS
 Instalar git
 
 git version
-git config --global user.name "mi nombre"
-git config --global user.email "myemail@example.com"  (EL CORREO DEBE SER EL MISMO QUE EL DE GIBHUB)
 
 
-// Muestra en una línea los commit realizados
-git log --oneline
 
-// Muestra en una línea los commit realizados pero más elegante
-git log --oneline --decorate --all --graph
 
-// Solo muestra los archivos modificados
-git status -s
 
-//Para limpiar la consola
-cls   
 
 
 comand//> git init
@@ -75,6 +65,11 @@ https://www.youtube.com/watch?v=fHSkaccKfaA
 
 SISTEMA DE ACTUALIZACION DE VERSIONES GIT
 *****************************************
+00.  git config --global user.name "mi nombre"   (configuramos git en nuestra PC)
+00. git config --global user.email "myemail@example.com"  (EL CORREO DEBE SER EL MISMO QUE EL DE GIBHUB)
+00. git config user.name      (verificamos si esta bien saldra el nombre que pusimos)
+00. si se quiere eliminar git de la compu vamos a panel_de_control->cuentas_de_usuario
+    administrar_credenciales->credenciales_de_windows->buscamos git y lo quitamos  (para empezar de cero)
 
 # Comandos utiles de GIT
 1. git init                         (inicializar)
@@ -89,7 +84,13 @@ SISTEMA DE ACTUALIZACION DE VERSIONES GIT
 10. git checkout master             (para volver a la rama principal) 
 11. git merge rama-heroes           (incluir ramas secundarias a rama master)  
 12. git branch -d rama-heroes       (para eliminar las ramas que ya no nos sirven)
+13. git status -s                   (escanea todos los archivos y muestra modificados) 
+14. git log --oneline               (Muestra en una línea los commit realizados)
+15. git log --oneline --decorate --all --graph  (Muestra en una línea los commit realizados pero más elegante)
+16. cls                             (limpia la consola)
+17. :q!                             (en caso de que aparezc el VIM)
 
+ 
 # PARA HACER EL REPLIEGUE EN UN REPOSITORIO EXTERNO COMO EJEMPLO GIBHUB
   COPIAR LOS COMANDOS 
   1. git remote add origin https://github.com/Antonmarchitec/ProyectoDePruebaGIT.git
@@ -120,3 +121,8 @@ SISTEMA DE ACTUALIZACION DE VERSIONES GIT
 
 ENLACE TURISMO
 https://www.youtube.com/watch?v=xr7HrtEHFIk&t=260s
+
+
+
+
+https://www.youtube.com/watch?v=PW_A-lOpVV0&t=608s

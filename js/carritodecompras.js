@@ -187,6 +187,7 @@ const pintarProductos = (data) =>{
 
          let clone = template_card.cloneNode(true)
          fragment.appendChild(clone)
+         
      });
      items.appendChild(fragment)
 }
@@ -204,31 +205,15 @@ document.addEventListener('click', (e) =>{
 })
 
 
-const setCarrito = objeto =>{
+const setCarrito = (objeto) =>{
     //console.log(objeto)
-    const objetoCar = {
+    const productoOb = {
         title: objeto.querySelector("h5").textContent,
         precio: objeto.querySelector("p").textContent,
         id: objeto.querySelector(".btn-dark").dataset.id,
         cantidad: 1
     }
-    console.log(objetoCar)
+    console.log(productoOb)
 }
 
 
-
-
-
-
-/*
-const setCarrito = (objeto => {
-    console.log(objeto)
-    const producto = {
-        title: objeto.querySelector('h5').textContent,
-        precio: objeto.querySelector('p').textContent,
-        id: objeto.querySelector('button').dataset.id,
-        cantidad:1
-    }
-    
-})
-*/
