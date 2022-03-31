@@ -2,7 +2,6 @@ PARA INICIALIZAR GIT Y SUBIR REPOSITORIOS
 *****************************************
 
 Instalar git
-
 git version
 
 
@@ -65,7 +64,7 @@ https://www.youtube.com/watch?v=fHSkaccKfaA
 
 SISTEMA DE ACTUALIZACION DE VERSIONES GIT
 *****************************************
-00.  git config --global user.name "mi nombre"   (configuramos git en nuestra PC)
+00. git config --global user.name "mi nombre"   (configuramos git en nuestra PC)
 00. git config --global user.email "myemail@example.com"  (EL CORREO DEBE SER EL MISMO QUE EL DE GIBHUB)
 00. git config user.name      (verificamos si esta bien saldra el nombre que pusimos)
 00. si se quiere eliminar git de la compu vamos a panel_de_control->cuentas_de_usuario
