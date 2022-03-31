@@ -178,7 +178,6 @@ const dataFech = async () =>{
 const pintarProductos = (data) =>{
      data.forEach( element => {
          //console.log(element)
-       
          template_card.querySelector('img').setAttribute('src', element.thumbnailUrl)
          template_card.querySelector('img').setAttribute('alt', element.title)
          template_card.querySelector('h5').textContent = element.title
@@ -187,9 +186,8 @@ const pintarProductos = (data) =>{
 
          let clone = template_card.cloneNode(true)
          fragment.appendChild(clone)
-         
-     });
-     items.appendChild(fragment)
+    });     
+    items.appendChild(fragment)
 }
 
 
@@ -200,11 +198,11 @@ document.addEventListener('click', (e) =>{
     if(e.target.classList.contains('btn-dark')){
         //setCarrito(e.target.parentElement)
         //console.log(e.target.parentElement)
-        setCarrito(e.target.parentElement)
+        setCarrito(e.target.parentElement) 
     }
 })
 
-
+    
 const setCarrito = (objeto) =>{
     //console.log(objeto)
     const productoOb = {
@@ -215,5 +213,48 @@ const setCarrito = (objeto) =>{
     }
     console.log(productoOb)
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

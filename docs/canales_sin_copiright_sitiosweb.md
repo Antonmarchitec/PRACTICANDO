@@ -11,11 +11,12 @@ https://www.youtube.com/c/NoCopyright...
 
 
 # TENDENCIAS UTILES PARA PAGINAS WEB
-1. 3D ICONS   (iconos en 3D)
-2. FLATICON   (iconos en 3D) 
-3. FREE 3D ICON   (iconos en 3D)
-4. ICONS COUT     (iconos en 3D)
-5. ICON FINDER    (iconos en 3D) EXCELENTE
+1. 3D ICONS       (iconos en 3D)              u:desarrollowebaps    //*3dicons*//
+2. FLATICON       (iconos en 3D)              u:desarrollowebaps    //         //
+2. FLATICO CONTRIBUTOR                        u:desarrollowebaps   
+3. FREE 3D ICON   (iconos en 3D)              u:desarrollowebaps
+4. ICONS COUT     (iconos en 3D)              u:desarrollowebaps
+5. ICON FINDER    (iconos en 3D) EXCELENTE    u:desarrollowebaps
 
 
 # PROGRAMAS PARA PRESENTACIONES ATRACTIVAS (interactivas atractivas)
