@@ -4,10 +4,16 @@
 https://www.youtube.com/c/audiolibrar...
 https://www.youtube.com/c/NoCopyright...
 
+ENTRAR AL SIGUIENTE ENLACE – PROYECTO DEL CANAL HOLA MUNDO
+PARTE 1: https://www.youtube.com/watch?v=a6MU-bwuOvo
+PARTE 2: https://www.youtube.com/watch?v=K2D97-5iSzs&t=0s
+
+
 # PAGINAS PARA INTROS DE VIDEOS YOUTUBE 
 1. RENDERFOREST     
 2. INVIDEO                                    u:desa        //invideoaps1323//
 3. VISITAR ZYRO (pagina para crear sitios web y tiendas online sin saber una sola linea de codigo)
+4. WWW.WN3D.PRO  (OVERLAYS PARA GAMING) 
 
 
 # TENDENCIAS UTILES PARA PAGINAS WEB (ICONOS Y LOGOS 3D)
@@ -65,7 +71,7 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 24. loading.io/css/             (PARA CARAGAR PAGINA)
 25. undraw.co/illustrations     (IMAGENES SVG GRATIS)
 26. remove.bg                   (QUITA LOS FONDOS DE IMAGENES)     A TOMAR EN CUENTA------------ 
-
+27. Swiper                      (PAGINA PARA HACER SLADERS BONITOS)
 
 
 
@@ -77,9 +83,13 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 5. REACT DEVELOPER TOOLS              (PARA REACT JS)
 
 # PLUYING VISUAL STUDIO CODE
-1. PRETIER
+1. PRETIER                      (FORMATEA CODIGO PARA QUE SE VEA MAS LIMPIO)
 2. ESLINT
 3. LIVE SERVER
+3. Spanish language pack for visual studio code     (CAMBIA VISUAL STUDIO A UN ENTORNO EN ESPAÑOL) 
+4. Auto Rename Tag               (para html)
+5. Auto close Tag                (para html)   
+
 
 # LIBRERIAS Y FRAMEWORKS CSS
 1. BOOTSTRAP
@@ -89,7 +99,7 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 
 
 # REPOSITORIOS
-- infinityFree (repositorio donde puedo almacenar paginas en HTML y PHP)
+- infinityFree 
 - github
 - Notify
 
@@ -98,9 +108,36 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 - bolsystem
 - hostgator
 - hostinger
+- interserver.net
 
 
 # DRIVERS Y PROGRAMAS 
 - Driver booster                (INSTALA DRIVERS) 
 - Driver pack solution          (INSTALA DRIVERS)
 - CrystalDiskInfo               (ESCANEA ESTADOS DISCO DURO)
+
+
+
+# NOTAS PARA HTML
+- PARA VER TODOS LOS ATAJOS EN LA PESTAÑA => Archivo -> Prefereencias -> Metodos abreviados de teclado
+- validator.w3.org    (esta pagina me ayudara a mejorar el codigo html)
+
+
+
+# ESTE VIDEO ME ESTA ENSEÑANDO REACT JS ACTUALMENTE
+https://www.youtube.com/watch?v=6Jfk8ic3KVk     MIN:1:13:08
+
+
+# ESTE VIDEO ME ESTA AYUDANDO PARA MEJORAR HTML5.2
+https://www.youtube.com/watch?v=oUKJdqkd6a0&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=8
+video 18 aca quedamos
+
+
+
+
+# CLONAR UNA DE ESTAS PAGINAS PARA ANTOM GAME
+plantilla para Antom Game  
+https://www.templatemonsterpreview.com/demo/235806.html?_gl=1*9zjyny*_ga*Mzc2NzM2NTI0LjE2NDk1NjYyNDc.*_ga_FTPYEGT5LY*MTY0OTU2NjI0Ni4xLjEuMTY0OTU2NjUwMi41&_ga=2.21368251.1674182383.1649566247-376736524.1649566247&_gac=1.179897174.1649566247.CjwKCAjw3cSSBhBGEiwAVII0Z7g7ldLbGEl9bmHCjhR2JC7z48UIxLoEhOT627iRYZ4ktL3NF1kW0BoCiz8QAvD_BwE
+
+2da opcion
+https://www.templatemonsterpreview.com/demo/62222.html?_gl=1*1gfxsm*_ga*Mzc2NzM2NTI0LjE2NDk1NjYyNDc.*_ga_FTPYEGT5LY*MTY0OTU2NjI0Ni4xLjEuMTY0OTU2NjMxOS40Nw..&_ga=2.218488345.1674182383.1649566247-376736524.1649566247&_gac=1.154878794.1649566247.CjwKCAjw3cSSBhBGEiwAVII0Z7g7ldLbGEl9bmHCjhR2JC7z48UIxLoEhOT627iRYZ4ktL3NF1kW0BoCiz8QAvD_BwE
