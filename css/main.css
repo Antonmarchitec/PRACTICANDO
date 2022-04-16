@@ -38,4 +38,35 @@
   background: forestgreen;
 }
 
+.acordion {
+  width: 90%;
+  max-width: 120em;
+  background: lightblue;
+  padding: 2em;
+}
+
+.acordion .bloque {
+  background: red;
+  margin: 0 0 1em;
+  padding: 1em;
+}
+
+.acordion .h2 {
+  background: lime;
+  margin: 0 0 1em;
+  padding: 1em;
+}
+
+.acordion .contenido {
+  background: pink;
+  padding: 0em;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s ease all;
+}
+
+.acordion .bloque.activo .contenido {
+  height: 4em;
+}
+
 /*# sourceMappingURL=main.css.map */

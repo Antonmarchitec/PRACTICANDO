@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slader css y js</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .contBse{
+            width: 800px;
+            height: 350px;
+            margin: 50px auto;
+            padding: 0px;
+            background: rgb(214, 214, 214);
+            position: relative;
+            overflow: hidden;
+        }
+        .contBse .container{
+            width:3200px;
+            height:350px;
+            background: rgb(200, 218, 174);
+            display: flex;
+            flex-direction: row;
+        }
+        .contBse .container .cajas{
+            width:800px;
+            height: 350px;
+            background: gold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 50px;
+        }
+        /***************/
+        .arrowLeft{
+            width: 50px;
+            height: 50px;
+            background: orange;
+            position: absolute;
+            top: 40%;
+            left: 0;
+            cursor: pointer;
+        }
+        .arrowRight{
+            width: 50px;
+            height: 50px;
+            background: orange;
+            position: absolute;
+            top: 40%;
+            right: 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <div class="contBse">
+        <div class="container" id="container">
+            <div class="cajas" id="cajas">caja#1</div>
+            <div class="cajas" id="cajas">caja#2</div>
+            <div class="cajas" id="cajas">caja#3</div>
+            <div class="cajas" id="cajas">caja#4</div>
+        </div> 
+
+        <div class="arrowLeft"></div>
+        <div class="arrowRight"></div>
+    </div>
+
+
+
+
+     <script>
+        
+        let container = document.querySelector("#container")
+        let cajas = document.querySelectorAll("#cajas")
+        let arrowLeft = document.querySelector(".arrowLeft")
+        let arrowRight = document.querySelector(".arrowRight")
+
+
+        let ultimoEle = cajas[cajas.length - 1]
+        container.insertAdjacentElement("afterbegin", ultimoEle)
+
+
+        document.addEventListener("click", e =>{
+        if(e.target.classList.contains("arrowRight")){
+            let cajasB = document.querySelectorAll("#cajas")
+            let enFoco = cajasB[cajasB.length - 4 ]
+            container.style.marginLeft = "-300%"
+            container.style.transition = "0.5s all"
+            setTimeout(() =>{
+                container.style.transition = "none"
+                container.insertAdjacentElement("beforeend", enFoco)
+                container.style.marginLeft = "-200%"
+            },300)
+            
+        }else if(e.target.classList.contains("arrowLeft")){
+            let elementos = document.querySelectorAll("#cajas")
+            let ultimoBloque = elementos[elementos.length - 1]
+            container.style.marginLeft = "0"
+            container.style.transition = "0.5s all"
+            setTimeout(()=>{
+                container.style.transition = "none"
+                container.insertAdjacentElement("afterbegin", ultimoBloque)
+                container.style.marginLeft = "-100%"
+            },300)  
+          }
+        })
+
+
+     </script>
+
+</body>
+</html>

@@ -109,6 +109,7 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 - hostgator
 - hostinger
 - interserver.net
+- webcaribe.com
 
 
 # DRIVERS Y PROGRAMAS 
@@ -144,5 +145,6 @@ https://www.templatemonsterpreview.com/demo/62222.html?_gl=1*1gfxsm*_ga*Mzc2NzM2
 
 
 
-watarirouka 
+watarirouka Hashiritay
+https://www.youtube.com/watch?v=bgHmJQFZgKY
 https://www.youtube.com/watch?v=bgHmJQFZgKY
