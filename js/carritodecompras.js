@@ -195,6 +195,8 @@ const pintarProductos = (data) =>{
 //DELEGACION DE EVENTOS
 document.addEventListener('click', (e) =>{
     //console.log(e.target.classList.contains('btn-dark'))
+    //e.target.id === 'nombre_id'
+    //e.target.toogle === 'nombre_id || nombre_class'
     if(e.target.classList.contains('btn-dark')){
         //setCarrito(e.target.parentElement)
         //console.log(e.target.parentElement)

@@ -40,38 +40,59 @@ https://www.youtube.com/watch?v=AVVuPgfuFck  (REFERENCIA VIDEO)
 Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 
 
-# PAGINAS Y HERRAMIENTAS DESAROLLO WEB
+# HERRAMIENTAS DESAROLLO WEB
 1. carbon.now.sh                (MOSTRAR CODIGO PERSONALIZADO)
 2. reponsinator.com             (VER ADAPTABILIDAD RESPONSIVE DEL SITIO WEB)
 3. screenfly                    (VER ADAPTABILIDAD RESPONSIVE DEL SITIO WEB)
 4. es.site123.com               (EJEMPLOS SITIOS WEB)
-5. normalize                    (NORMALIZA NAVEGADOR)
-6. neumorphism.io               (GENERA SOMBRAS)
-7. getwaves.io                  (GENERA FONDOS CURVOS)
-8. switch alert                 (ALERTAS JS)
-9. scroll reveal                (LIBRERIA ANIMACIONES JS)
-10. aos.js                      (LIBRERIA ANIMACIONES CON SCROLL)
-11. hamburguers.css             (GENERA BOTONES HAMBURGUESA)
 12. envatoelements              (SITIOS WEB EJEMPLOS)
+5. normalize                    (NORMALIZA NAVEGADOR)
+28. me-qr.com                   (transforma enlace a codigo QR)
+
+# SITIOS IMAGENES GRATUITAS Y DE PAGA HD
 9.  pixabay                     (IMAGENES FULL HD)
 10. unsplash                    (IMAGENES FULL HD)
 11. undraw                      (IMAGENES FULL HD)
 12. pexels                      (IMAGENES FULL HD)
-13. tiny.png                    (OPTIMIZADOR DE IMAGENES)
-14. cssmatic.com                (GENERADOR DE SOMBRAS)
-15. gradients                   (GENERADOR GRADIENTES)
-16. colors                      (PALETAS DE COLORES)
 17. pngocean                    (IMAGENES GRATUITAS)
 18. klipartz.com                (IMAGENES PNG FULL HD)
 19. freepik                     (IMAGENES FULL HD Y PSD)
 20. freerangestock.com          (IMAGENES HD GRATUITAS)
+25. undraw.co/illustrations     (IMAGENES SVG GRATIS)
+26. remove.bg                   (QUITA LOS FONDOS DE IMAGENES)     A TOMAR EN CUENTA------------ 
+13. tiny.png                    (OPTIMIZADOR DE IMAGENES)
+
+# GENERADORES WEB
+14. cssmatic.com                (GENERADOR DE SOMBRAS)
+15. gradients                   (GENERADOR GRADIENTES)
 21. webgradients.com            (GENERA GRADIENTES)
+6. neumorphism.io               (GENERA SOMBRAS)
+7. getwaves.io                  (GENERA FONDOS CURVOS)
+16. colors                      (PALETAS DE COLORES)
+
+# LOADING WEB
 22. icons8.com/preloaders       (PARA CARGAR PAGINAS)
 23. loading.io                  (PARA CARGAR PAGINAS)
 24. loading.io/css/             (PARA CARAGAR PAGINA)
-25. undraw.co/illustrations     (IMAGENES SVG GRATIS)
-26. remove.bg                   (QUITA LOS FONDOS DE IMAGENES)     A TOMAR EN CUENTA------------ 
-27. Swiper                      (PAGINA PARA HACER SLADERS BONITOS)
+
+
+
+# LIBRERIAS Y FRAMEWORKS CSS
+1. BOOTSTRAP
+2. MATERIALIZE
+3. CSS TRICK                
+4. TEMPLATE MONSTER         (TODO TIPO DE PLANTILLAS)
+11. hamburguers.css         (GENERA BOTONES HAMBURGUESA)
+
+
+
+# LIBRERIAS Y FRAMEWORKS JS
+1. Typed.js         (Utilizado)    https://www.youtube.com/watch?v=bSHitSCqWr8
+2. particles.js     (Utilizado)    https://www.youtube.com/watch?v=NbnSynwqplU&t=115s
+3. Swiper.js        (Utilizado)    https://www.youtube.com/watch?v=e6A-ppGLZMs
+4. switch alert     (ALERTAS JS Utilizado)
+9. scroll reveal    (LIBRERIA ANIMACIONES JS)
+10. aos.js          (LIBRERIA ANIMACIONES CON SCROLL)
 
 
 
@@ -91,17 +112,14 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 5. Auto close Tag                (para html)   
 
 
-# LIBRERIAS Y FRAMEWORKS CSS
-1. BOOTSTRAP
-2. MATERIALIZE
-3. CSS TRICK                
-4. TEMPLATE MONSTER         (TODO TIPO DE PLANTILLAS)
-
 
 # REPOSITORIOS
-- infinityFree 
-- github
-- Notify
+- infinityFree            (se puede subir paginas desarrolladas con php) 
+- github pages
+- Notlify
+- heroku
+- firebase
+- vercel
 
 
 # HOSTING
@@ -125,8 +143,11 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 
 
 
-# ESTE VIDEO ME ESTA ENSEÑANDO REACT JS ACTUALMENTE
-https://www.youtube.com/watch?v=6Jfk8ic3KVk     MIN:1:13:08
+
+
+
+
+
 
 
 # ESTE VIDEO ME ESTA AYUDANDO PARA MEJORAR HTML5.2

@@ -65,3 +65,7 @@ ES7 React/Redux/GraphQL/React-Native snippets
 v3.1.
 
 memorisar la palabra reservada _rafce
+
+
+# ESTE VIDEO ME ESTA ENSEÑANDO REACT JS ACTUALMENTE
+https://www.youtube.com/watch?v=6Jfk8ic3KVk     MIN:1:13:08
