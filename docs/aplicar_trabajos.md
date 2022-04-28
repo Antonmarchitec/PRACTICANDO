@@ -3,8 +3,7 @@
 3. TORRE          Correo: desarrollowebaps@gmail.com
 4. TRABAJO FLEXIBLE        (ME POSTULE RELLENANDO EL FORM)  https://trabajo-flexible.com/?ref=ES889104   
 5. Cuenta revelo (postule a trabajo a EEUU)
-   desarrollowebaps@gmail.com
-   pw: pseyaej-revelo
+   
 
 
 
