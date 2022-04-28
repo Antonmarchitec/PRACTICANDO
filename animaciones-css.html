@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b7fb745aab.js" crossorigin="anonymous"></script>
+    <title>ANIMACIONES CSS</title>
+</head>
+
+<style>
+    /*
+    animation-direction: normal
+    animation-direction: reverse
+    animation-direction: alternate
+    animation-direction: alternate-reverse
+    animation-direction: normal, reverse
+    animation-direction: alternate, reverse, normal
+    
+    
+    
+    rotate(100deg)
+    scale(1.1)
+    skew()
+    translate()
+
+
+    transform: matrix(1, 2, 3, 4, 5, 6);
+    transform: translate(120px, 50%);
+    transform: scale(2, 0.5);
+    transform: rotate(0.5turn);
+    transform: skew(30deg, 20deg);
+    transform: scale(0.5) translate(-100%, -100%);
+    */
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .contBase{
+        width: 100%;
+        height: 100vh;
+        background: rgba(172, 255, 47, 0.162);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation-name: bot;                /*DECLARA EL NOMBRE AL @KEYFRAMES PARA MANIPULAR*/
+        animation-duration: 4s;                      /*EL TIEMPO QUE TARDA UNA ANIMACION AL TERMINAR UN CICLO*/
+        animation-timing-function: ease-out;         /*ESTABLECE CURVAS DE ACELERACION ESTABLECIDAS*/
+        /*animation-delay: 3s;*/                     /*LE TIEMPO DEL ELEMENTO QUE SE CARGA Y EL INICIO*/
+        animation-direction:alternate;               /*ESTABLECE LA DIRECCION DE LA ANIMACION DESPUES DEL CICLO*/
+        animation-iteration-count:infinite;          /*EL NUMERO DE VECES QUE SE DEBE REALIZAR LA ANIMACION*/
+        animation-fill-mode:none;                    /*establece que valores se aplican antes y despues de la animacion*/  
+        /*animation-play-state: running;*/           /*reproduce la animacion*/
+        border: 1px solid grey;
+     }
+    @keyframes my_animation{
+        0%{
+              background:rgb(235, 7, 7);
+              transform: translateX(0px) rotate(180deg);
+              border-radius: 5px;
+        }
+        25%{
+              background: rgb(217, 217, 12);
+              transform: translateX(100px) translateY(0px);
+              border-radius: 10px;
+        }
+        50%{
+              background: rgb(47, 240, 9);
+              transform: translateX(100px) translateY(100px);
+              border-radius: 20px;
+
+        }
+        75%{
+            background: blue;
+            transform: translateX(0px) translateY(100px);
+            border-radius: 30px;
+        }
+        100%{
+            background: black;
+            transform: translateX(0px) translateY(0px) scale(0.5);
+            border-radius: 40px;
+        }
+    }
+
+    @keyframes hola {
+        from {
+            margin-left: 0;
+            width: 300%
+        }
+
+        to {
+            margin-left: 100%;
+            width: 100%;
+        }
+    }
+
+
+
+    .botton{
+        width: 150px;
+        padding: 10px 30px;
+        background: rgb(208, 240, 89);
+        color: rgb(12, 12, 82);
+        border: none;
+        border-radius: 8px;
+        font-weight:bold;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.5s all;
+    }
+    .botton .text{
+        transition: 0.5s all;
+    }
+    .botton .icon{
+        transition: 0.5s all;
+    }
+    
+
+    .botton .icon{
+        animation-name: mover;
+        animation-duration: 1s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        
+    }
+    @keyframes mover {
+        from{
+           transform: translateX(-10px);
+           
+        }
+        to{
+          transform: translateX(20px);
+          opacity: 0;
+        }
+    }
+    .botton:hover{
+        background: rgb(21, 21, 59);
+    }
+    .botton:hover .text{
+        color: white;
+    }
+    .botton:hover .icon{
+        color: white;
+    }
+    
+
+</style>
+<body>
+    <div class="contBase">
+        <a href="" style="text-decoration: none;">
+            <button class="botton"> 
+                <p class="text">Ingresar</p><i class="icon fa-solid fa-arrow-right-from-bracket"></i>
+            </button>
+        </a>
+
+        <a href="" style="text-decoration: none;">
+            <button class="botton"> 
+                <p class="text">Ingresar</p><i class="icon fa-solid fa-arrow-right-from-bracket"></i>
+            </button>
+        </a>
+    </div>
+</body>
+</html>
