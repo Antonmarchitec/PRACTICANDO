@@ -8,6 +8,9 @@ ENTRAR AL SIGUIENTE ENLACE – PROYECTO DEL CANAL HOLA MUNDO
 PARTE 1: https://www.youtube.com/watch?v=a6MU-bwuOvo
 PARTE 2: https://www.youtube.com/watch?v=K2D97-5iSzs&t=0s
 
+# HACER CURRICULUM CON CODEROS
+- https://cv.coderos.mx/
+
 
 # PAGINAS PARA INTROS DE VIDEOS YOUTUBE 
 1. RENDERFOREST     
@@ -93,6 +96,7 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 4. switch alert     (ALERTAS JS Utilizado)
 9. scroll reveal    (LIBRERIA ANIMACIONES JS)
 10. aos.js          (LIBRERIA ANIMACIONES CON SCROLL)
+11. axios.js        (Libreria para hacer peticiones JS) https://www.youtube.com/watch?v=Zt1VceJs0vU
 
 
 
@@ -136,6 +140,8 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 - CrystalDiskInfo               (ESCANEA ESTADOS DISCO DURO)
 
 
+# PLANTILLAS HTML CSS JS PARA EDITAR
+- https://www.trazos-web.com/2015/02/11/38-plantillas-html-css-gratuitas/
 
 # NOTAS PARA HTML
 - PARA VER TODOS LOS ATAJOS EN LA PESTAÑA => Archivo -> Prefereencias -> Metodos abreviados de teclado
