@@ -97,7 +97,7 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 9. scroll reveal    (LIBRERIA ANIMACIONES JS)
 10. aos.js          (LIBRERIA ANIMACIONES CON SCROLL)
 11. axios.js        (Libreria para hacer peticiones JS) https://www.youtube.com/watch?v=Zt1VceJs0vU
-
+12. https://threejs.org/     (Libreria js en 3d)
 
 
 # EXTENCIONES GOOGLE CHROME
