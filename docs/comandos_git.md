@@ -117,6 +117,7 @@ SISTEMA DE ACTUALIZACION DE VERSIONES GIT
 
 # CREAR UN ARCHIVO README.md EN EL REPOSITORIO
 - touch README.md       (colocar desde la consola)
+ - para realizar el md utiliza el editor.md (https://pandao.github.io/editor.md/en.html)
 
 
 
