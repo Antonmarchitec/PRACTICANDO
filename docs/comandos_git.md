@@ -83,11 +83,13 @@ SISTEMA DE ACTUALIZACION DE VERSIONES GIT
 10. git checkout master             (para volver a la rama principal) 
 11. git merge rama-heroes           (incluir ramas secundarias a rama master)  
 12. git branch -d rama-heroes       (para eliminar las ramas que ya no nos sirven)
-13. git status -s                   (escanea todos los archivos y muestra modificados) 
-14. git log --oneline               (Muestra en una línea los commit realizados)
-15. git log --oneline --decorate --all --graph  (Muestra en una línea los commit realizados pero más elegante)
-16. cls                             (limpia la consola)
-17. :q!                             (en caso de que aparezc el VIM)
+13. git status                      (Verifica si esta todo correcto)
+14. git status -s                   (escanea todos los archivos y muestra modificados) 
+15. git log --oneline               (Muestra en una línea los commit realizados)
+16. git log --oneline --decorate --all --graph  (Muestra en una línea los commit realizados pero más elegante)
+17. cls                             (limpia la consola)
+18. :q!                             (en caso de que aparezc el VIM)
+
 
  
 # PARA HACER EL REPLIEGUE EN UN REPOSITORIO EXTERNO COMO EJEMPLO GIBHUB
@@ -113,15 +115,17 @@ SISTEMA DE ACTUALIZACION DE VERSIONES GIT
   1. git push
   2. git commit -am "mensaje"     (reemplaza al git add . // git commit -m "comentario")
 
-  ENLACE DEL VIDEO AYUDA:
-  https://youtu.be/iT4UOkyI09k
-  https://www.youtube.com/watch?v=rApDq6twjGg
-
-
-ENLACE TURISMO
-https://www.youtube.com/watch?v=xr7HrtEHFIk&t=260s
+# CREAR UN ARCHIVO README.md EN EL REPOSITORIO
+- touch README.md       (colocar desde la consola)
 
 
 
 
-https://www.youtube.com/watch?v=PW_A-lOpVV0&t=608s
+# ENLACE DEL VIDEO AYUDA:
+  - https://youtu.be/iT4UOkyI09k
+  - https://www.youtube.com/watch?v=rApDq6twjGg
+
+
+# ENLACE TURISMO
+  - https://www.youtube.com/watch?v=xr7HrtEHFIk&t=260s
+  - https://www.youtube.com/watch?v=PW_A-lOpVV0&t=608s  
