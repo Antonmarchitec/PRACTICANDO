@@ -77,7 +77,7 @@ SISTEMA DE ACTUALIZACION DE VERSIONES GIT
 4. git commit -m "primer_commit"    (colocar nombre)
 5. git checkout -- .                (volver al ultimo commit)
 6. git log                          (muestras todos los commits sales con la letra Q)
-7. git commit --amend         (Editar el nombre del ultimo commit (tecla i) para salir Esc + :wq!)
+7. git commit --amend               (Editar el nombre del ultimo commit (tecla i) para salir Esc + :wq!)
 8. git checkout -b rama-heroes      (crear una nueva rama ejemplo:rama-heroes)
 9. git branch                       (ver cuantas ramas tengo)
 10. git checkout master             (para volver a la rama principal) 
@@ -108,8 +108,8 @@ SISTEMA DE ACTUALIZACION DE VERSIONES GIT
   6. git clone url_del_proyecto                  (para clonar proyecto copiamos su url)
        - cd url_del_proyecto      (accedemos a nuestra carpeta del pro)
        - code .                   (abrir nuestro pro en visual estudio) 
-       - npm install              (instalar npm)
-       - npm start                (abrimos el proyecto)
+       - npm install              (instalar npm React)
+       - npm start                (abrimos el proyecto React)
  
 # CUANDO SE QUIERE EDITAR Y EL PROYECTO YA ESTA EN EL REPOSITORIO SOLO SERA 
   1. git push
