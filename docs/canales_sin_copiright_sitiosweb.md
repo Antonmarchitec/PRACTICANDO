@@ -107,6 +107,10 @@ Nota: Tarjetas con EFECTO MORFISMO de vidrio con HTML y CSS
 4. TRADUCTOR DE GOOGLE                (TRADUCTOR)
 5. REACT DEVELOPER TOOLS              (PARA REACT JS)
 
+# HERRAMIENTAS UTILES
+1. https://validator.w3.org/#validate_by_input       (PAGINA DE VALIDACION DE MARCADO)
+2. https://pandao.github.io/editor.md/en.html        (PAGINA EDITOR PARA ARCHIVOS README.md) 
+
 # PLUYING VISUAL STUDIO CODE
 1. PRETIER                      (FORMATEA CODIGO PARA QUE SE VEA MAS LIMPIO)
 2. ESLINT
