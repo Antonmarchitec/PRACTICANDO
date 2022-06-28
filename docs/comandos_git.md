@@ -129,4 +129,6 @@ SISTEMA DE ACTUALIZACION DE VERSIONES GIT
 
 # ENLACE TURISMO
   - https://www.youtube.com/watch?v=xr7HrtEHFIk&t=260s
-  - https://www.youtube.com/watch?v=PW_A-lOpVV0&t=608s  
+  - https://www.youtube.com/watch?v=PW_A-lOpVV0&t=608s
+
+  ..  
