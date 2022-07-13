@@ -5,11 +5,6 @@ Instalar git
 git version
 
 
-
-
-
-
-
 comand//> git init
 
 SUBIR EL PROYECTO COMPLETO

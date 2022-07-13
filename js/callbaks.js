@@ -2,6 +2,7 @@
 //QUE ES CALLBACK?   
 //RESP: es una funcion que se pasa como parametro a otra funcion 
 
+
 const posts = [
     {
         "userId": 1,
@@ -25,6 +26,10 @@ const posts = [
 
 //findPostById = buscar post potr id
 const findPostById = (id, callback) =>{
-       
+    const res = posts.find( element => element.id === id)
+    callback(res)
 }
 
+findPostById(1, (res) => {
+    console.log(res)
+})
