@@ -69,6 +69,7 @@ window.document.addEventListener("DOMContentLoaded", ()=>{
     pokemones_1_al_20()
     pokemones_21_al_40()
     pokemones_41_al_60()
+    pokemones_61_al_80()
 })
 
 
@@ -78,6 +79,12 @@ const pokemones_1_al_20 = async()=>{
          const res = await fetch('https://pokeapi.co/api/v2/')
          const data = await res.json()
          pintar(data)
+         document.addEventListener("click", (e) =>{
+             if(e.target.id === "uno"){
+                base.textContent = pintar(data) 
+             }
+         })
+         //pintar(data)
      }
      catch(error){
          console.log("Ocurrio un error")
@@ -141,7 +148,7 @@ const pokemones_21_al_40 = async() =>{
         //console.log(data.next)
         //pokemonesDel_2_40(data)
         document.addEventListener("click", (e)=>{
-            if(e.target.id === "anterior"){
+            if(e.target.id === "dos"){
                 base.textContent =   pokemonesDel_2_40(data)
             }
         })
@@ -195,6 +202,63 @@ const mostrar21_40 = (datau) =>{
 
 
 
+
+
+
+
+
+//POKEMONES DEL 41 AL 60
+const pokemones_61_al_80 = async () =>{
+    try{
+        const res4160 = await fetch("https://pokeapi.co/api/v2/pokemon/?offset=60&limit=20")
+        const data4160 = await res4160.json()
+        //console.log(data4160)
+        document.addEventListener("click", (e)=>{
+            if(e.target.id === "tres"){
+                base.textContent = urlPaso1Poke6180(data4160)
+            }
+        })
+    }catch(error){
+        console.log("ERROR CARGA 41-60")
+    }
+}
+
+const urlPaso1Poke6180 = (data4160)=>{
+    //console.log(data4160.results)
+    data4160.results.forEach( elemento =>{
+        //console.log(elemento.url)
+        let url6180 = elemento.url
+        const urlPaso2Poke4160 = async () =>{
+            try{
+                const res61_80 = await fetch(url6180)
+                const data61_80 = await res61_80.json()
+                //console.log(data41_60)
+                pintarElements6180(data61_80)
+
+            }catch(error){
+                console.log("ERROR AL CARGAR URL 41_60")
+            }
+        }
+        urlPaso2Poke4160()
+    })
+}
+
+const pintarElements6180 = (data61_80) =>{
+    console.log(data61_80)
+    template_pokemones.querySelector(".NombrePoke").textContent = data61_80.name
+    template_pokemones.querySelector("img").setAttribute("src", data61_80.sprites.other.dream_world.front_default)
+    let clone6180 = template_pokemones.cloneNode(true)
+    fragmentPokemones.appendChild(clone6180)
+    base.appendChild(fragmentPokemones)
+}
+
+
+
+
+
+
+
+
 //POKEMONES DEL 21 AL 60
 const pokemones_41_al_60 = async () =>{
     try{
@@ -202,7 +266,7 @@ const pokemones_41_al_60 = async () =>{
         const data4160 = await res4160.json()
         //console.log(data4160)
         document.addEventListener("click", (e)=>{
-            if(e.target.id === "siguiente"){
+            if(e.target.id === "cuatro"){
                 base.textContent = urlPaso1Poke4160(data4160)
             }
         })
@@ -239,3 +303,7 @@ const pintarElements4160 = (data41_60) =>{
     fragmentPokemones.appendChild(clone4160)
     base.appendChild(fragmentPokemones)
 }
+
+
+
+
