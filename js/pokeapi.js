@@ -74,7 +74,7 @@ window.document.addEventListener("DOMContentLoaded", ()=>{
 
 
 //POKEMONES DEL 1 AL 20
-const pokemones_1_al_20 = async()=>{
+const pokemones_1_al_20 = async() =>{
      try{
          const res = await fetch('https://pokeapi.co/api/v2/')
          const data = await res.json()
@@ -84,7 +84,7 @@ const pokemones_1_al_20 = async()=>{
                 base.textContent = pintar(data) 
              }
          })
-         //pintar(data)
+         
      }
      catch(error){
          console.log("Ocurrio un error")
